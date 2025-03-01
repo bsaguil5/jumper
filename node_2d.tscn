@@ -9,3 +9,4 @@ position = Vector2(25, 157)
 scale = Vector2(-3.35636, 3.47612)
 
 [node name="StaticPlatform" parent="StaticPlatform" instance=ExtResource("1_jooao")]
+position = Vector2(-2.97942, -53.7955)
