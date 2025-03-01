@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvk7bnvuc5j5"]
+
+[ext_resource type="PackedScene" uid="uid://dsj0waohfvygu" path="res://static platform.tscn" id="1_jooao"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticPlatform" parent="." instance=ExtResource("1_jooao")]
+position = Vector2(25, 157)
+scale = Vector2(-3.35636, 3.47612)
+
+[node name="StaticPlatform" parent="StaticPlatform" instance=ExtResource("1_jooao")]
